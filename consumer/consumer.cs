@@ -9,7 +9,7 @@ class Consumer {
         var config = new ConsumerConfig
         {
             // User-specific properties that you must set
-            BootstrapServers = "192.168.1.106:9092,192.168.1.106:9093,192.168.1.106:9094",
+            BootstrapServers = "localhost:9092",
 
             // Fixed properties
             GroupId         = "kafka-dotnet-getting-started",
